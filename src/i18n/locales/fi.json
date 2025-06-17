@@ -1,0 +1,678 @@
+{
+  "saunaStay": "SaunaStay",
+  "saunaJournal": "Saunapäiväkirja",
+  "loginToContinue": "Kirjaudu sisään jatkaaksesi",
+
+  
+  "guestFavorites": "Suosikit",
+  "hostASauna": "Listaa Sauna",
+  "login": "Kirjaudu",
+  "signup": "Rekisteröidy",
+  "myBookings": "Varaukseni",
+  "myFavorites": "Suosikkini",
+  "profileN": "Profiili",
+  "dashboard": "Ylläpito",
+  "manageSaunas": "Saunat",
+  "manageAvailability": "Saatavuus",
+  "manageBookings": "Varaukset",
+  "revenueN": "Tulot",
+  "listSauna": "Listaa Sauna",
+  "exploreNearby": "Tutustu Lähialueisiin",
+  "feedback": "Palaute",
+  "helpSupport": "Tuki",
+  "logout": "Kirjaudu Ulos",
+  "language": "Kieli",
+  "pleaseEnterEmailAndPassword": "Ole hyvä ja anna sähköpostiosoite ja salasana.",
+  "welcomeBack": "👋 Tervetuloa takaisin!",
+    "loggedInSuccessfully": "👋 Kirjautuminen onnistui!",
+  "googleAccountNotRegistered": "Tämä Google-tili ei ole rekisteröity. Ole hyvä ja rekisteröidy.",
+  "googleSignInFailed": "❌ Google-kirjautuminen epäonnistui.",
+  "pleaseEnterYourEmail": "Ole hyvä ja anna sähköpostiosoitteesi.",
+  "passwordResetEmailSent": "📧 Salasanan palautusviesti lähetetty!",
+  "failedToSendResetEmail": "Palautusviestin lähetys epäonnistui.",
+  "close": "Sulje",
+  "loginTitle": "🔐 Kirjaudu SaunaStayhin",
+  "emailPlaceholder": "Sähköposti",
+  "passwordPlaceholder": "Salasana",
+  "forgotPassword": "Unohditko salasanasi?",
+  "loading": "Ladataan...",
+  "logIn": "Kirjaudu sisään",
+  "continueWithGoogle": "Jatka Googlen kautta",
+  "noAccount": "Eikö sinulla ole tiliä?",
+  "signUp": "Rekisteröidy",
+  "findYourDreamSauna": "Löydä unelmiesi sauna",
+  "naturePeaceLuxury": "Luonto, rauha ja ylellisyys — varaa nyt",
+  "searchByLocation": "Hae sijainnin mukaan...",
+  "allTypes": "Kaikki tyypit",
+  "private": "Yksityinen",
+  "public": "Julkinen",
+  "mobile": "Mobiili",
+  "resetAllFilters": "Nollaa kaikki suodattimet",
+  "saunasH": "Saunat",
+  "exploreSaunas": "Tutustu saunoihin",
+  "noSaunasMatchFilters": "Suodattimesi eivät vastaa yhtään saunaa.",
+  "pleaseLoginToSaveFavorites": "Kirjaudu sisään tallentaaksesi suosikkeja",
+  "Traditional Sauna": "Perinteinen Sauna",
+  "Electric Sauna": "Sähkösauna",
+  "Wood Burning": "Puulämmitteinen",
+  "Outdoor Sauna": "Ulkosauna",
+  "Smoke Sauna": "Savusauna",
+  "Hybrid Sauna": "Hybridisauna",
+  "Barrel Sauna": "Tynnyrisauna",
+  "Infrared vs Traditional": "Infrapuna vs Perinteinen",
+  "Popular Styles": "Suositut Tyylit",
+  "Steam Shower": "Höyrysauna",
+  "Bathroom Sauna": "Kylpyhuonesauna",
+  "Bio Sauna": "Bio Sauna",
+  "Cabin Sauna": "Mökkisauna",
+  "Steam Room": "Höyryhuone",
+  "loadingSaunaDetails": "Saunan tiedot latautuvat...",
+  "noRatingsYet": "Ei vielä arvioita",
+  "locationCategory": "Sijainti & Kategoria",
+  "locationFeature": "Sijainti",
+  "category": "Kategoria",
+  "Amenities": "Mukavuudet",
+  "guestReviews": "Vierasarvostelut",
+  "bookYourSauna": "🛀 Varaa Saunavuorosi",
+  "sessionDuration": "Istunnon kesto",
+  "price": "Hinta",
+  "opensAt": "Aukeaa",
+  "closesAt": "Sulkeutuu",
+  "timezone": "Aikavyöhyke",
+  "securityFeatures": "Turvallisuus",
+  "allTimesNote": "⚠️ Kaikki ajat näytetään saunan paikallisessa ajassa",
+  "slot": "Vuoro",
+  "sessionDurationMin": "Istunnon kesto (min)",
+  "totalSpots": "Paikkoja yhteensä",
+  "spotsAvailable": "Vapaita paikkoja",
+  "selectSpots": "Valitse paikat",
+  "bookNow": "Varaa nyt",
+  "pleaseSelectDate": "📅 Valitse päivämäärä nähdäksesi vapaat vuorot.",
+  "full": "Täynnä",
+  "minutes": "minuuttia",
+  "perPerson": "henkilöä kohden",
+  "confirmBooking": "Vahvista varaus",
+  "confirmBookingBtn": "Vahvista varaus",
+  "yourName": "Nimesi",
+  "yourEmail": "Sähköpostiosoitteesi",
+  "contactNumber": "Puhelinnumerosi",
+  "spotsBooked": "Varatut paikat",
+  "spot": "paikka",
+  "spots": "paikkaa",
+  "bookingFailed": "Varaus epäonnistui. Yritä uudelleen.",
+  "at": "klo",
+  "notAvailable": "--",
+  "bookingSummary": "Varausyhteenveto",
+  "sauna": "Sauna",
+  "address": "Osoite",
+  "bookingId": "Varaustunnus",
+  "bookingDate": "Varauspäivä",
+  "bookingSlot": "Aikaväli",
+  "sessionPrice": "Istunnon hinta",
+  "totalCost": "Kokonaiskustannus",
+  "description": "Kuvaus",
+  "yourDetailsPayment": "Omat tiedot & Maksu",
+  "name": "Nimi",
+  "email": "Sähköposti",
+  "contactNumberMust": "Puhelinnumero *",
+  "addressField": "Osoite *",
+  "payNowTest": "Maksa nyt (Testi)",
+  "creditCard": "Luottokortti",
+  "terms": "Vahvistamalla hyväksyt käyttöehdot ja tietosuojakäytännön.",
+  "confirmPay": "Vahvista & Maksa",
+  "alreadyPaid": "Jo maksettu",
+  "loadingBookingDetails": "Ladataan varauksesi tietoja…",
+  "thankYouBooking": "Kiitos varauksestasi!",
+  "sessionConfirmed": "Istuntosi kohteessa {{sauna}} on vahvistettu.",
+  "date": "Päivä",
+  "time": "Aika",
+  "spotsH": "Paikat",
+  "totalPaid": "Maksettu yhteensä",
+  "confirmationEmail": "Vahvistussähköposti",
+  "arriveNote": "***Saavu 10 minuuttia aikaisemmin ja ota oma pyyhe mukaan.",
+  "recommendedSaunas": "Saatat pitää myös näistä",
+  "enterContactAddress": "Ole hyvä ja syötä puhelinnumerosi ja osoitteesi.",
+  "paymentSuccess": "Maksu onnistui!",
+  "paymentFailed": "Maksu epäonnistui.",
+  "loadingBooking": "Ladataan varauksen tietoja…",
+  "paymentCancelled": "Maksu peruttu",
+  "paymentCancelledDesc": "Varaustasi ei maksettu. Voit yrittää maksua uudelleen alla.",
+  "paymentCancelledNotice": "Varaus on merkitty peruutetuksi.",
+  "retryPayment": "Yritä uudelleen",
+  "signupTitle": "✍️ Luo SaunaStay-tilisi",
+  "fullName": "Koko nimi",
+  "backToDashboard": "Takaisin hallintapaneeliin",
+  "emailAddress": "Sähköpostiosoite",
+  "password": "Salasana",
+  "selectRole": "Valitse rooli",
+  "roleUser": "Käyttäjä",
+  "roleOwner": "Omistaja",
+  "hostSauna": "Listaa Sauna",
+  "signUpWithGoogle": "Rekisteröidy Googlella",
+  "fillAllFields": "Täytä kaikki kentät.",
+  "signupSuccess": "Tili luotu onnistuneesti!",
+  "signupFailure": "Rekisteröityminen epäonnistui. Yritä uudelleen.",
+  "googleAlready": "Google-tili on jo rekisteröity. Kirjaudu sisään.",
+  "googleSignupFail": "Google-rekisteröityminen epäonnistui.",
+
+    "listYourSauna": "Listaa saunasi",
+  "listYourSaunaSubtitle": "Jaa rauhallinen saunasi ainutlaatuista kokemusta etsivien vieraiden kanssa.",
+  "anonymous": "Anonyymi",
+  "addSaunaFailed": "Saunan lisääminen epäonnistui.",
+
+  "saunaType": {
+    "private": "Yksityinen",
+    "privateDescription": "Vain vieraille tarkoitettu sauna",
+    "public": "Julkinen",
+    "publicDescription": "Jaettu muiden kanssa – kuten kylpylöissä tai kuntosaleilla",
+    "mobile": "Liikuteltava",
+    "mobileDescription": "Voidaan siirtää tai kuljettaa"
+  },
+
+  "back": "Takaisin",
+  "next": "Seuraava",
+  
+  "traditionalSauna": "Perinteinen sauna",
+  "electricSauna": "Sähkösauna",
+  "outdoorSauna": "Ulkosauna",
+  "smokeSauna": "Savusauna",
+  "hybridSauna": "Hybridi sauna",
+  "barrelSauna": "Tynnyrisauna",
+  "infraredSauna": "Infrapunasauna",
+  "steamRoom": "Höyryhuone",
+  "cabinSauna": "Mökkisauna",
+  "bathroomSauna": "Kylpyhuonesauna",
+  "woodBurningSauna": "Puulämmitteinen sauna",
+  "bioSauna": "Bio-sauna",
+  "steamCabin": "Höyrykabinetti",
+  "drySauna": "Kuivasauna",
+  "mobileSauna": "Liikuteltava sauna",
+  
+  "selectSaunaType": "🌿 Valitse saunasi tyyppi",
+  "selectSaunaTypeDescription": "Millaisen saunan tarjoat vieraille?",
+  "chooseCategory": "Valitse saunakategoria",
+  "chooseCategoryDescription": "Valitse tyyli, joka parhaiten kuvaa saunasi.",
+  "enterSaunaInfo": "🏷 Syötä saunatiedot",
+  "enterSaunaInfoDescription": "Anna saunasi nimi, isännän tiedot ja kuvaus.",
+  "setSaunaHours": "🕒 Aseta saunan aukioloajat",
+  "setSaunaHoursDescription": "Valitse päivittäiset aukioloajat ja kuinka kauan kukin vuoro kestää.",
+  "locationTitle": "📍 Missä saunasi sijaitsee?",
+  "locationDescription": "Osoite jaetaan vain vieraille, jotka ovat tehneet varauksen.",
+  "addPhotos": "📷 Lisää saunakuvia",
+  "addPhotosDescription": "Ensimmäinen kuva on kansikuva. Lisää 3 sivukuvaa.",
+  "chooseAmenities": "🛠 Valitse mukavuudet",
+  "chooseAmenitiesDescription": "Mitä tarjoat saunassasi? Valitse kaikki, jotka soveltuvat.",
+  "securityTitle": "📝 Kerro lisää saunastasi",
+  "securityDescription": "Jaa lisätietoja saunasi ympäristöstä, turvallisuudesta tai erityisohjeista vieraille.",
+  "createListing": "Luo ilmoitus",
+  
+  "enterEmailPassword": "Syötä sekä sähköposti että salasana.",
+  "accountNotFound": "Tiliä ei löytynyt. Ohjataan rekisteröitymiseen...",
+  "googleNotRegistered": "Google-tiliä ei ole rekisteröity. Ohjataan rekisteröitymiseen...",
+  "invalidCredentials": "Virheelliset tunnukset tai verkkovirhe.",
+  "googleLoginFailed": "Google-kirjautuminen epäonnistui.",
+  "welcome": "👋 Tervetuloa",
+  "user": "Käyttäjä",
+  "notOwnerAccount": "Tällä tilillä ei ole oikeuksia lisätä saunoja. Käytäthän omistajatileä.",
+  "saunaInfo": {
+  "title": "Saunan tiedot",
+  "name": "Nimi",
+  "namePlaceholder": "esim. Forest Edge Finnish Sauna",
+  "description": "Kuvaus",
+  "descriptionPlaceholder": "Kuvaile, mikä tekee saunastasi ainutlaatuisen...",
+  "hostName": "Isännän nimi",
+  "hostNamePlaceholder": "esim. John Doe",
+  "totalSpots": "Paikkojen määrä",
+  "totalSpotsPlaceholder": "esim. 6",
+  "avatar": "Isännän kuva",
+  "avatarUrlPlaceholder": "Tai liitä kuvan URL...",
+  "avatarLimitNote": "* Kuvan maksimikoko: 2 Mt",
+  "avatarTooLarge": "Kuva on liian suuri! Lataa kuva, joka on alle {{max}} Mt."
+},
+
+"security": {
+  "title": "Turvallisuusominaisuudet",
+  "camera": "Ulkopuolinen valvontakamera",
+  "noiseMonitor": "Melunvalvontalaite",
+  "weapons": "Aseita kiinteistöllä",
+  "notePlaceholder": "esim. Kamera asennettu pääsisäänkäynnille. Ei laitteita saunahuoneessa.",
+  "disclaimerTitle": "Vastuuvapauslauseke:",
+  "disclaimerText": "Lähettämällä saunatietosi vahvistat, että kaikki antamasi tiedot ovat parhaan tietosi mukaan paikkansapitäviä. Olet itse vastuussa paikallisten turvallisuusmääräysten ja lakien noudattamisesta. SaunaStay ei ole vastuussa turvallisuus-, oikeudellisista tai toimintaan liittyvistä ongelmista liittyen ilmoitukseesi."
+},
+
+"timing": {
+  "title": "Saunan aukioloajat",
+  "opening": "Avaamisaika",
+  "closing": "Sulkemisaika",
+  "selectTime": "Valitse aika",
+  "duration": "Istunnon kesto",
+  "price": "Hinta per istunto (henkilöä kohden)",
+  "pricePlaceholder": "esim. 25"
+},
+"session": {
+  "30min": "30 minuuttia",
+  "45min": "45 minuuttia",
+  "1hour": "1 tunti"
+},
+"location": {
+  "country": "Maa / Alue",
+  "selectCountry": "Valitse maa",
+  "address": "Katuosoite",
+  "addressPlaceholder": "esim. Järvitie 45",
+  "city": "Kaupunki / Kunta",
+  "cityPlaceholder": "esim. Helsinki",
+  "state": "Maakunta / Alue",
+  "statePlaceholder": "esim. Uusimaa",
+  "zip": "Postinumero",
+  "zipPlaceholder": "esim. 00100",
+  "mapLabel": "Valitse saunan sijainti kartalta"
+},
+"images": {
+  "warning": "Lataa korkealaatuisia JPG/PNG-kuvia alle 5 Mt optimaalista suorituskykyä varten.",
+  "cover": "Kansikuva",
+  "side": "Sivukuvat",
+  "upload": "Lataa",
+  "uploadCover": "Klikkaa ladataksesi kansikuvan",
+  "uploading": "Ladataan..."
+},
+ "amenities": {
+  "title": "Valitse mukavuudet",
+"woodFiredHeater": "Puulämmitteinen kiuas",
+  "coldPlunge": "Kylmäallas",
+  "changingRoom": "Pukuhuone",
+  "outdoor": "Ulkosauna",
+  "Wifi": "WiFi",
+  "kitchen": "Keittiö",
+  "parking": "Pysäköinti",
+  "saunaLight": "Saunavalaistus",
+  "pool": "Uima-allas",
+  "towels": "Pyyhkeet"
+},
+"toast": {
+  "fillSaunaInfo": "Täytä kaikki vaaditut saunatiedot.",
+  "fillTiming": "Täytä kaikki saunan aikataulutiedot.",
+  "fillLocation": "Täytä kaikki tarvittavat osoitetiedot.",
+  "timezoneError": "Aikavyöhykettä ei voitu määrittää sijainnista.",
+  "uploadImages": "Lataa kansikuva ja 3 sivukuvaa.",
+  "selectAmenities": "Valitse vähintään yksi mukavuus.",
+  "securityInfo": "Valitse vähintään yksi turvallisuusominaisuus tai kirjoita huomautus.",
+  "authError": "Käyttäjä ei ole kirjautunut sisään.",
+  "listingSuccess": "Saunalistauksen luonti onnistui!",
+  "listingError": "Saunalistauksen tallennus epäonnistui."
+},
+
+
+  "totalRevenue": {
+    "allSaunas": "💰 Kokonaistulot (Kaikki saunat)"
+  },
+  "revenue": {
+    "gross": "Bruttotulot",
+    "platformFee": "Alustan maksu (5%)",
+    "net": "Nettotulot"
+  },
+  "saunas": {
+    "title": "🧖 Saunat",
+    "noneFound": "Saunoja ei löytynyt."
+  },
+  "table": {
+    "bookingId": "Varausnumero",
+    "amountPaid": "Maksettu summa (€)",
+    "status": "Tila",
+    "date": "Päivämäärä",
+    "noPayments": "Maksuja ei löytynyt."
+  
+},
+
+
+
+  "revenueT": {
+    "title": "Tulot",
+    "gross": "Bruttotulot",
+    "platformFee": "Alustan maksu (5%)",
+    "net": "Nettotulot"
+  },
+ 
+  "YourSaunas": "Omat saunasi",
+  "BookingDetails": "Varaustiedot",
+
+ 
+  "customer": "Asiakas",
+  "contact": "Yhteystiedot",
+  
+  "status": "Tila",
+  "updateBooking": "Päivitä varaus",
+  "BookingsTable": "Varaustaulukko",
+  "NoBookingsFound": "Varaustietoja ei löytynyt.",
+  "Date": "Päivämäärä",
+  "Time": "Aika",
+  "Customer": "Asiakas",
+  "Spots": "Paikat",
+  "Status": "Tila",
+  "Actions": "Toiminnot",
+  "ViewUpdate": "Näytä / Päivitä",
+  
+  "profile": {
+    "title": "👤 Profiilisi",
+    "name": "Nimi",
+    "contact": "Yhteystiedot",
+    "address": "Osoite",
+    "placeholder": {
+      "name": "esim. Matti Meikäläinen",
+      "contact": "esim. +358 1234567",
+      "address": "esim. Järvitie 45"
+    },
+    "resetPassword": "🔒 Nollaa salasana",
+    "saveChanges": "Tallenna muutokset",
+    "updateSuccess": "✅ Profiili päivitetty onnistuneesti!",
+    "updateFail": "❌ Profiilin päivitys epäonnistui",
+    "resetLinkSent": "📧 Palautuslinkki lähetetty sähköpostiin",
+    "resetLinkFail": "❌ Linkin lähetys epäonnistui"
+  },
+  "dashboardU": {
+    "title": "{{name}}in Hallintapaneeli",
+    "defaultTitle": "Hallintapaneeli"
+  },
+  
+  "journal": {
+    "title": "Saunapäiväkirja",
+    "subtitle": "Huolellisesti koottu kokoelma saunatarinoita, kulttuuria, hyvinvointia ja henkilökohtaisia matkoja.",
+    "articles": [
+      {
+        "title": "Säännöllisen saunomisen terveyshyödyt",
+        "content": "Saunominen ei ole pelkkää rentoutumista — se tarjoaa monia terveyshyötyjä. Säännöllinen käyttö voi vähentää stressiä, parantaa verenkiertoa, poistaa myrkkyjä ja tukea lihasten palautumista. Saunat auttavat myös nukkumisessa, lievittävät kroonista kipua ja vahvistavat immuunijärjestelmää."
+      },
+      {
+        "title": "Skandinaaviset saunaperinteet, joita kannattaa kokeilla",
+        "content": "Pohjoismainen saunakokemus tarkoittaa muutakin kuin kuumassa huoneessa istumista. Siihen kuuluu lämpöjaksoja, kylmäkylpyjä ja lepohetkiä. Suomessa saunotaan perheen kanssa – jopa liiketapaamiset voivat tapahtua saunassa! Perinteisiin kuuluu myös vihdan käyttö ja hiljaisuuden kunnioittaminen."
+      },
+      {
+        "title": "Käyttäjätarina: Savusaunaviikonloppu järven rannalla",
+        "content": "Jane Helsingistä vietti viikonlopun perinteisessä savusaunassa. Ei sähköä, vain puulämmitteinen kiuas. 'Hiljaisuus, koivun tuoksu ja lämpö kietoutuivat ympärilleni kuin viltti', hän kuvailee. Jokaisen saunomisen jälkeen hän pulahti jäiseen järveen. Täydellinen digitaalinen irtiotto."
+      },
+      {
+        "title": "Näin sauna edistää mielenterveyttä",
+        "content": "Lämpöhoito vapauttaa endorfiineja, vähentää kortisolitasoja ja edistää meditatiivista tilaa. Sauna tarjoaa tauon ärsykkeistä ja näytöistä. Säännöllinen käyttö voi helpottaa ahdistusta ja masennusta. Yhdistettynä hengitysharjoituksiin sauna muuttuu rauhan tyyssijaksi."
+      }
+    ]
+  
+},
+
+
+   "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "intro": "SaunaStay on tällä hetkellä testausvaiheessa. Tämä tietosuojakäytäntö selittää, miten käsittelemme henkilötietojasi.",
+    "collectTitle": "Mitä keräämme",
+    "item1": "Nimi ja sähköpostiosoite",
+    "item2": "Varaus- ja saatavuustiedot",
+    "item3": "Maksutiedot (turvallisten kolmannen osapuolen palveluiden kautta)",
+    "whyTitle": "Miksi keräämme tietoja",
+    "whyContent": "Keräämme tietoja suostumuksellasi testataksemme alustan ominaisuuksia, kuten kirjautumista, varauksia ja maksuja. Emme koskaan jaa tai myy tietojasi.",
+    "contactTitle": "Yhteystiedot",
+    "contactText": "Kysyttävää? Ota yhteyttä osoitteeseen"
+  },
+  "ProfileOwner": {
+  "ownerTitle": "Omistajan profiili",
+  "defaultName": "Nimesi",
+  "resetPassword": "Palauta salasana",
+  "name": "Nimi",
+  "contact": "Yhteystiedot",
+  "address": "Osoite",
+  "city": "Kaupunki",
+  "country": "Maa",
+  "company": "Yritys",
+  "website": "Verkkosivusto",
+  "saveChanges": "Tallenna muutokset",
+  "updated": "✅ Profiili päivitetty onnistuneesti!",
+  "updateFailed": "❌ Profiilin päivitys epäonnistui",
+  "resetSent": "📧 Palautuslinkki lähetetty sähköpostiisi",
+  "resetFailed": "❌ Palautuslinkin lähetys epäonnistui"
+},
+"UserFav": {
+  "loadingFavorites": "Ladataan suosikkisaunojasi...",
+  "loginToView": "Kirjaudu sisään nähdäksesi suosikkisaunasi.",
+  "login": "kirjaudu sisään",
+  "myFavorites": "Suosikkisaunani",
+  "noFavorites": "Et ole vielä tallentanut yhtään saunaa suosikiksi."
+},
+"RequestModal": {
+  "title": "Päivitä varaus / Pyydä ylläpitoa",
+  "sauna": "Sauna",
+  "date": "Päivämäärä",
+  "time": "Aika",
+  "customer": "Asiakas",
+  "status": "Tila",
+  "reasonLabel": "Pyynnön syy",
+  "placeholder": "Esimerkki: Asiakas ei saapunut paikalle...",
+  "cancel": "Peruuta",
+  "submit": "Lähetä pyyntö",
+  "enterReason": "Anna syy pyynnölle.",
+  "success": "Pyyntö lähetetty onnistuneesti ylläpidolle.",
+  "error": "Pyynnön lähetys epäonnistui. Yritä uudelleen."
+},
+
+"thankYou": {
+  "title": "Kiitos varauksestasi!",
+  "bookingId": "Varausnumero",
+  "processing": "Maksua käsitellään...",
+  "saved": "Maksu tallennettu ja varaus vahvistettu ✅",
+  "alreadySaved": "Maksu on jo tallennettu.",
+  "error": "Maksun tallennuksessa tapahtui virhe.",
+  "thankYouBooking": "Kiitos varauksestasi!",
+  "sessionConfirmed": "Saunavuorosi saunassa {{sauna}} on vahvistettu.",
+  "locationT": "Sijainti",
+  "date": "Päivämäärä",
+  "time": "Aika",
+  "spotsH": "Paikkoja",
+  "totalPaid": "Maksettu yhteensä",
+  "confirmationEmail": "Vahvistussähköposti",
+  "arriveNote": "Saavu 10 minuuttia etuajassa ja tuo oma pyyhe mukanasi."
+},
+"bookingManager": {
+  "title": "Hallitse varauksiani",
+  "loading": "Ladataan varauksia...",
+  "noBookings": "Ei vielä varauksia.",
+  "unknownSauna": "Tuntematon sauna",
+  "customer": "Asiakas",
+  "email": "Sähköposti",
+  "date": "Päivämäärä",
+  "time": "Aika",
+  "status": "Tila"
+},
+
+"dashboardOwner": {
+  "loading": "Ladataan kojelautaa...",
+  "greeting": "Hyvää huomenta, {{name}}",
+  "intro": "Tässä on saunasi viikkokooste.",
+  "totalSaunas": "Saunoja yhteensä",
+  "upcomingBookings": "Tulevat varaukset",
+  "totalRevenue": "Kokonaismyynti",
+  "profileSettings": "Profiiliasetukset",
+  "bookingsChart": "Varaukset tällä viikolla",
+  "revenueChart": "Tulotaso"
+},
+
+"guestFavorite": {
+  "title": "Vieraiden suosikkisaunat",
+  "description": "Kauniisti koottu lista saunoista, joita vieraat rakastavat – tutustu eniten jaettuihin ja pidetyimpiin.",
+  "loading": "Ladataan...",
+  "noFavorites": "Vieraat eivät ole vielä tallentaneet suosikkeja."
+},
+"manageAvailabilityOwner": {
+  "title": "Hallinnoi saunan saatavuutta",
+  "yourSaunas": "Saunasi",
+  "spotsAvailable": "Vapaat paikat:",
+  "updateSlot": "Päivitä aika",
+  "saveChanges": "Tallenna muutokset"
+},
+
+
+  "manageSaunasOwner": {
+    "title": "Hallitse Saunojani",
+    "yourSaunas": "Saunasi",
+    "addNew": "➕ Lisää uusi sauna",
+    "images": "Kuvat",
+    "selectType": "Valitse tyyppi",
+    "selectCategory": "Valitse kategoria",
+    "city": "Kaupunki",
+    "country": "Maa",
+    "price": "Hinta (per sessio per henkilö)",
+    "duration": "Sessiokesto",
+    "openingTime": "Aukioloaika alkaa",
+    "closingTime": "Aukioloaika päättyy",
+    "features": "Ominaisuudet",
+    "description": "Saunan kuvaus",
+    "update": "✅ Päivitä sauna",
+    "delete": "🗑 Poista sauna",
+    "noSaunaSelected": "Valitse sauna listalta nähdäksesi tai muokataksesi sitä.",
+    "updateSuccess": "✅ Sauna päivitetty onnistuneesti!",
+    "updateFail": "❌ Saunan päivitys epäonnistui.",
+    "deleted": "🗑 Sauna poistettu",
+    "deleteConfirm": "Haluatko varmasti poistaa tämän saunan?",
+    "imageUploaded": "✅ Kuva ladattu onnistuneesti!",
+    "imageFailed": "❌ Kuvan lataus epäonnistui"
+  },
+
+
+  "feedbackBot": {
+    "buttonLabel": "Anna palautetta",
+    "title": "Arvostamme palautettasi",
+    "rolePrompt": "Oletko asiakas vai saunan omistaja?",
+    "roles": {
+      "customer": "Asiakas",
+      "owner": "Omistaja"
+    },
+    "name": "Nimesi (pakollinen)",
+    "email": "Sähköpostisi (pakollinen)",
+    "experience": "Millainen kokemus sinulla oli SaunaStay-palvelusta?",
+    "useAgain": "Käyttäisitkö SaunaStayta uudelleen?",
+    "features": "Maksaisitko premium-ominaisuuksista, kuten:",
+    "featuresList": {
+      "360": "360° saunanäkymä",
+      "smart": "Älyohjaus",
+      "voice": "Ääniohjaus",
+      "api": "API-yhteys olemassa olevaan varausjärjestelmään"
+    },
+    "suggestions": "Onko sinulla parannusehdotuksia SaunaStaylle?",
+    "suggestionsPlaceholder": "Kirjoita ehdotuksesi tähän...",
+    "submit": "Lähetä palaute",
+    "submitting": "Lähetetään...",
+    "success": "Kiitos! Palautteesi on vastaanotettu.",
+        "requireGuestInfo": "Anna nimesi ja sähköpostiosoitteesi jatkaaksesi.",
+  "requireRole": "Valitse oletko asiakas vai omistaja.",
+  "requireExperience": "Arvioi käyttökokemuksesi.",
+  "requireUseAgain": "Vastaa käyttäisitkö SaunaStayta uudelleen.",
+  "requirePayForFeatures": "Vastaa maksaisitko näistä lisäominaisuuksista.",
+ 
+    "options": {
+      "yes": "Kyllä",
+      "no": "Ei",
+      "maybe": "Ehkä"
+    }
+  },
+
+"feed":{
+  "feedbackPageTitle": "Palaute"
+},
+  "role": "Rooli",
+  "experience": "Kokemus",
+  "useAgain": "Käyttäisitkö uudelleen",
+  "payForFeatures": "Maksaisitko ominaisuuksista",
+  "suggestion": "Ehdotus",
+ 
+
+  "roleMap": {
+    "customer": "Asiakas",
+    "owner": "Omistaja"
+  },
+  "emojiMap": {
+    "😡": "Vihainen",
+    "😐": "Neutraali",
+    "🙂": "Iloinen",
+    "😍": "Erinomainen"
+  },
+  "useAgainMap": {
+    "Yes": "Kyllä",
+    "No": "Ei"
+  },
+"payForFeaturesMap": {
+    "Yes": "Kyllä",
+    "No": "Ei",
+    "Maybe": "Ehkä"
+  },
+
+
+
+  "help": {
+    "title": "Ohjeet ja tuki",
+    "back": "← Takaisin SaunaStay-etusivulle",
+    "details": {
+      "SaunaStay Home": "Tutustu SaunaStay-etusivuun, jossa on suodattimet ja saunojen selausvaihtoehdot.",
+      "Typefilters": "Käytä saunatyypin suodattimia, kuten perinteinen, sähkö, savu jne.",
+      "Categoryfilters": "Valitse kategoriat kuten ulkosauna, tynnyrisauna tai mobiilisauna löytääksesi sopivat saunat.",
+      "saunaList": "Selaa suodattimien perusteella listattuja saunoja.",
+      "saunaViews": "Näe yksityiskohtainen näkymä valitusta saunasta, hinnat, aikavälit ja kuvaukset.",
+      "saunaJournal": "Lue blogeja, uutisia tai yhteisön jakamia vinkkejä.",
+      "feedbackBot1": "Valitse oletko käyttäjä vai omistaja ja lisää nimesi sekä sähköpostisi palautetta varten.",
+      "feedbackBot2": "Botti, joka on aina käytettävissä kysymyksiin ja palautteeseen.",
+      "signupLogin": "Rekisteröidy tai kirjaudu sisään sähköpostilla tai Googlen kautta varataksesi.",
+      "googlelogin": "Kirjaudu turvallisesti sisään Google-tililläsi.",
+      "login": "Syötä kirjautumistietosi päästäksesi SaunaStay-tilillesi.",
+      "userNavbar": "Käyttäjän navigointivalikko profiiliin, varauksiin ja suosikkeihin.",
+      "selectSauna": "Tutustu saunan yksityiskohtiin ennen varausta.",
+      "selectSaunaFi": "Valitse päivämäärä, aika ja paikka saunavuorolle.",
+      "confirmBooking": "Vahvista varaus avautuvassa modal-ikkunassa valinnan jälkeen.",
+      "paymentPage": "Tarkista valittu aika ja jatka maksamaan testimaksulla.",
+      "testStripe": "Simuloi maksua Stripe-testijärjestelmässä.",
+      "thankYou": "Kiitos-näyttö vahvistaa onnistuneen varauksen.",
+      "userDashboard": "Hallinnoi varauksiasi – voit päivittää tai peruuttaa niitä.",
+      "favorites": "Katso ja hallinnoi suosikkisaunojasi.",
+      "Profile": "Päivitä yhteystietosi, salasanasi ja tarkastele profiilitietojasi.",
+      "selectType": "Valitse listattavan saunan tyyppi: yksityinen, julkinen tai liikkuva.",
+      "selectTypeSelected": "Esikatselu valitusta saunatyypistä ennen jatkamista.",
+      "selectCategory": "Valitse saunalle parhaiten sopiva kategoria.",
+      "authLogin": "Kirjaudu sisään ennen saunan listaamista.",
+      "authSignup": "Rekisteröidy, jos et ole vielä kirjautunut sisään.",
+      "fillInfo": "Syötä saunan nimi, kuvaus, isännän nimi ja paikkamäärä.",
+      "hours": "Aseta aukioloajat ja istunnon kesto per henkilö.",
+      "location": "Syötä saunan sijainti osoitteella tai kartalla.",
+      "images": "Lataa laadukkaita kuvia saunasta.",
+      "amenities": "Valitse saunan tarjoamat mukavuudet, kuten pyyhkeet tai suihkut.",
+      "security": "Kerro turvallisuustoimenpiteistä ja lakien noudattamisesta.",
+      "listingSuccess": "Sauna listattu onnistuneesti ja on nyt aktiivinen!",
+      "ownerDashboard": "Näytä omistajan koontinäkymä varauksista, tuloista ja toiminnasta.",
+      "manageSaunas": "Näe ja päivitä omat listatut saunasi.",
+      "manageAvailability": "Aseta päivittäiset varausajat.",
+      "manageAvailabilityMonth": "Kuukausinäkymä – hallitse useita päiviä kerralla.",
+      "manageBookings": "Katso kuka on varannut saunasi ja milloin. Tarvittaessa toimi.",
+      "bookingModalOwner": "Omistajan modal varauksen tilan muuttamiseen tai viestin lähettämiseen.",
+      "revenue": "Näytä kokonais- ja päiväkohtaiset tulot.",
+      "profile": "Muokkaa omistajaprofiilia ja asetuksia."
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+

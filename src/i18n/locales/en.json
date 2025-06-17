@@ -1,0 +1,687 @@
+{
+  
+  "saunaStay": "SaunaStay",
+  "saunaJournal": "Sauna Journal",
+  "guestFavorites": "Guest Favorites",
+  "hostASauna": "Host a Sauna",
+  "login": "Login",
+  "signup": "Sign Up",
+  "myBookings": "My Bookings",
+  "myFavorites": "My Favorites",
+  "profileN": "Profile",
+  "dashboard": "Dashboard",
+  "manageSaunas": "Manage Saunas",
+  "manageAvailability": "Manage Availability",
+  "manageBookings": "Manage Bookings",
+  "revenueN": "Revenue",
+  "listSauna": "List Your Sauna",
+  "exploreNearby": "Explore Nearby",
+    "helpSupport": "Help & Support",
+  "feedback": "Feedback Form",
+  "logout": "Log Out",
+  "language": "Language",
+  "pleaseEnterEmailAndPassword": "Please enter email and password.",
+  "welcomeBack": "👋 Welcome back!",
+   "invalidCredentials": "❌ Invalid credentials.",
+  "loggedInSuccessfully": "👋 Logged in successfully!",
+  "googleAccountNotRegistered": "This Google account is not registered. Redirecting to signup...",
+  "googleSignInFailed": "❌ Google sign-in failed.",
+  "pleaseEnterYourEmail": "Please enter your email first.",
+  "passwordResetEmailSent": "📧 Password reset email sent!",
+  "failedToSendResetEmail": "Failed to send reset email.",
+  "close": "Close",
+  "loginTitle": "🔐 Log in to SaunaStay",
+  "emailPlaceholder": "Email",
+  "passwordPlaceholder": "Password",
+  "forgotPassword": "Forgot Password?",
+  "loading": "Loading...",
+   "continueWithGoogle": "Continue with Google",
+   
+  "noAccount": "Don’t have an account?",
+  "signUp": "Sign up",
+  "findYourDreamSauna": "Find Your Dream Sauna",
+  "naturePeaceLuxury": "Nature, peace, and luxury — book it now",
+  "searchByLocation": "Search by location...",
+  "allTypes": "All Types",
+  "private": "Private",
+  "public": "Public",
+  "mobile": "Mobile",
+  "resetAllFilters": "Reset All Filters",
+  "saunasH": "Saunas",
+  "exploreSaunas": "Explore Saunas",
+  "noSaunasMatchFilters": "No saunas match your filters or category.",
+  "pleaseLoginToSaveFavorites": "Please log in to save favorites",
+  "Traditional Sauna": "Traditional Sauna",
+  "Electric Sauna": "Electric Sauna",
+  "Wood Burning": "Wood Burning",
+  "Outdoor Sauna": "Outdoor Sauna",
+  "Smoke Sauna": "Smoke Sauna",
+  "Hybrid Sauna": "Hybrid Sauna",
+  "Barrel Sauna": "Barrel Sauna",
+  "Infrared vs Traditional": "Infrared vs Traditional",
+  "Popular Styles": "Popular Styles",
+  "Steam Shower": "Steam Shower",
+  "Bathroom Sauna": "Bathroom Sauna",
+  "Bio Sauna": "Bio Sauna",
+  "Cabin Sauna": "Cabin Sauna",
+  "Steam Room": "Steam Room",
+  "loadingSaunaDetails": "Loading sauna details...",
+  "noRatingsYet": "No ratings yet",
+  "locationCategory": "Location & Category",
+  "locationFeature": "Location",
+  "category": "Category",
+  "Amenities": "Amenities",
+  "guestReviews": "Guest Reviews",
+  "bookYourSession": "🛀 Book Your Sauna Session",
+  "selectTimeSlot": "Select Time Slot",
+  "chooseTimeSlot": "Choose a time slot",
+  "spotsLeft": "spots left",
+  "numberOfSpots": "Number of Spots",
+  "bookNow": "Book Now",
+  "selectDateToSeeSlots": "📅 Please select a date to see available slots.",
+  "pleaseLogInToBook": "Please log in to book a sauna.",
+  "selectTimeAndSpots": "Please select a time and number of spots.",
+  "locationNA": "N/A",
+  "sessionDuration": "Session Duration",
+  "minutesShort": "min",
+  "pricePerPerson": "Price",
+  "perPerson": "per person",
+  "opensAt": "Opens at",
+  "closesAt": "Closes at",
+  "timezone": "Timezone",
+  "securityFeatures": "Security",
+  "timesDisplayedInSaunaTimezone": "All times are displayed in sauna local time",
+    "none": "--",
+  "selectSpotsBeforeBooking": "Please select spots before booking.",
+    "bookYourSauna": "🛀 Book Your Sauna Session",
+      "price": "Price",
+       "allTimesNote": "⚠️ All times are displayed in sauna local time",
+    "slot": "Slot",
+    "sessionDurationMin": "Session Duration (min)",
+    "totalSpots": "Total Spots",
+    "spotsAvailable": "Spots Available",
+    "selectSpots": "Select Spots",
+    "pleaseSelectDate": "📅 Please select a date to see available slots.",
+    "full": "Full",
+  "minutes": "minutes",
+   "confirmBooking": "Confirm Booking",
+  "confirmBookingBtn": "Confirm Booking",
+  "yourName": "Your Name",
+  "yourEmail": "Your Email",
+  "contactNumber": "Contact Number",
+  "spotsBooked": "Spots Booked",
+  "spot": "spot",
+  "spots": "spots",
+   "payForFeatures": "Pay for features",
+  "bookingFailed": "Booking failed. Please try again.",
+  "at": "at",
+    "notAvailable": "--",
+     "bookingSummary":        "Booking Summary",
+  "sauna":                 "Sauna",
+  "address":               "Address",
+  "bookingId":             "Booking ID",
+  "bookingDate":           "Booking Date",
+  "bookingSlot":           "Booking Slot",
+    "sessionPrice":          "Session Price",
+  "totalCost":             "Total Cost",
+  "description":           "Description",
+   "yourDetailsPayment":    "Your Details & Payment",
+  "name":                  "Name",
+  "email":                 "Email",
+  "contactNumberMust":         "Contact Number *",
+  "addressField":          "Address *",
+  "payNowTest":            "Pay Now (Test)",
+  "creditCard":            "Credit Card",
+  "terms":                 "By clicking confirm, you agree to our terms and conditions and privacy policy.",
+  "confirmPay":            "Confirm & Pay",
+  "alreadyPaid":           "Already Paid",
+    "loadingBookingDetails": "Loading your booking details...",
+  "thankYouBooking":       "Thank you for your booking!",
+  "sessionConfirmed":      "Your session at {{sauna}} is confirmed.",
+   "date":                  "Date",
+  "time":                  "Time",
+  "spotsH":                 "Spots",
+  "totalPaid":             "Total Paid",
+  "confirmationEmail":     "Confirmation Email",
+  "arriveNote":            "***Please arrive 10 minutes early and bring your own towel.",
+  "recommendedSaunas":     "You might also like",
+  "enterContactAddress": "Please enter contact and address.",
+  "paymentSuccess":       "Payment successful!",
+  "paymentFailed":        "Payment failed.",
+  "loadingBooking":       "Loading booking info...",
+    "paymentCancelled":       "Payment Cancelled",
+  "paymentCancelledDesc":   "Your booking was not paid. You can retry payment below.",
+  "paymentCancelledNotice": "Your booking has been marked as cancelled.",
+  "retryPayment":           "Try Again",
+    "signupTitle":       "✍️ Create Your SaunaStay Account",
+  "fullName":          "Full Name",
+"backToDashboard": "Back to Dashboard",
+  "emailAddress":      "Email Address",
+  "password":          "Password",
+  "selectRole":        "Select Role",
+  "roleUser":          "User",
+  "roleOwner":         "Owner",
+  "signUpWithGoogle":  "Sign up with Google",
+  "fillAllFields":     "Please fill all fields.",
+  "signupSuccess":     "Account created successfully!",
+  "signupFailure":     "Failed to sign up. Try again.",
+  "googleAlready":     "Google account already registered. Please log in.",
+  "googleSignupFail":  "Google signup failed.",
+"hostSauna": "Host a Sauna",
+ "listYourSauna": "List Your Sauna",
+  "listYourSaunaSubtitle": "Share your tranquil space with guests seeking a unique sauna experience.",
+  "anonymous": "Anonymous",
+  "addSaunaFailed": "Failed to add sauna.",
+   "saunaType": {
+    "private": "Private",
+    "privateDescription": "A dedicated sauna for guests only",
+    "public": "Public",
+    "publicDescription": "Shared with others — like public spas or gyms",
+    "mobile": "Mobile",
+    "mobileDescription": "Can be transported or moved"
+  },
+ 
+   "back": "Back",
+  "next": "Next",
+  
+  "traditionalSauna": "Traditional Sauna",
+  "electricSauna": "Electric Sauna",
+  "outdoorSauna": "Outdoor Sauna",
+  "smokeSauna": "Smoke Sauna",
+  "hybridSauna": "Hybrid Sauna",
+  "barrelSauna": "Barrel Sauna",
+  "infraredSauna": "Infrared Sauna",
+  "steamRoom": "Steam Room",
+  "cabinSauna": "Cabin Sauna",
+  "bathroomSauna": "Bathroom Sauna",
+  "woodBurningSauna": "Wood-burning Sauna",
+  "bioSauna": "Bio Sauna",
+  "steamCabin": "Steam Cabin",
+  "drySauna": "Dry Sauna",
+  "mobileSauna": "Mobile Sauna",
+    "selectSaunaType": "🌿 Select Your Sauna Type",
+  "selectSaunaTypeDescription": "What kind of sauna are you offering to guests?",
+  "chooseCategory": "Choose a Sauna Category",
+  "chooseCategoryDescription": "Pick the style that best describes your sauna.",
+  "enterSaunaInfo": "🏷 Enter Sauna Info",
+  "enterSaunaInfoDescription": "Add your sauna’s name, host info, and description.",
+  "setSaunaHours": "🕒 Set Sauna Hours",
+  "setSaunaHoursDescription": "Choose your daily opening and closing time, and how long each session lasts.",
+  "locationTitle": "📍 Where’s your sauna located?",
+  "locationDescription": "Your address is only shared with guests after they’ve made a reservation.",
+  "addPhotos": "📷 Add Sauna Photos",
+  "addPhotosDescription": "Your first photo will be your cover image. Add 3 side photos.",
+  "chooseAmenities": "🛠 Choose Your Amenities",
+  "chooseAmenitiesDescription": "What do you offer at your sauna? Select all that apply.",
+  "securityTitle": "📝 Tell Us More About Your Sauna",
+  "securityDescription": "Share any extra details about your sauna's environment, safety, or special notes for guests.",
+  "createListing": "Create Listing",
+  "loginToContinue": "Log in to continue",
+   "logIn": "Log In",
+  "enterEmailPassword": "Please enter both email and password.",
+  "accountNotFound": "Account not found. Redirecting to signup...",
+  "googleNotRegistered": "Google account not registered. Redirecting to signup...",
+
+  "googleLoginFailed": "Google login failed.",
+  "welcome": "👋 Welcome",
+  "user": "User",
+  "notOwnerAccount": "This account is not authorized to add saunas. Please use an owner account.",
+  "saunaInfo": {
+    "title": "Sauna Information",
+    "name": "Title",
+    "namePlaceholder": "e.g., Forest Edge Finnish Sauna",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe what makes your sauna unique...",
+    "hostName": "Host Name",
+    "hostNamePlaceholder": "e.g., John Doe",
+    "totalSpots": "Total Spots",
+    "totalSpotsPlaceholder": "e.g., 6",
+    "avatar": "Host Avatar",
+    "avatarUrlPlaceholder": "Or paste image URL...",
+    "avatarLimitNote": "* Max avatar file size: 2MB",
+    "avatarTooLarge": "Image too large! Please upload an image smaller than {{max}}MB."
+  },
+  "security": {
+  "title": "Security Features",
+  "camera": "Exterior Security Camera",
+  "noiseMonitor": "Noise Monitoring Device",
+  "weapons": "Weapon(s) on Property",
+  "notePlaceholder": "e.g., Camera installed at main entrance. No devices inside sauna room.",
+  "disclaimerTitle": "Disclaimer:",
+  "disclaimerText": "By submitting your sauna details, you confirm that all information provided is accurate to the best of your knowledge. You are solely responsible for complying with local safety regulations and legal requirements. SaunaStay is not liable for any safety, legal, or operational issues related to your listing."
+},
+"timing": {
+  "title": "Sauna Operating Details",
+  "opening": "Opening Time",
+  "closing": "Closing Time",
+  "selectTime": "Select time",
+  "duration": "Session Duration",
+  "price": "Price per Session (per person)",
+  "pricePlaceholder": "e.g. 25"
+},
+"session": {
+  "30min": "30 minutes",
+  "45min": "45 minutes",
+  "1hour": "1 hour"
+},
+"location": {
+  "country": "Country / Region",
+  "selectCountry": "Select Your Country",
+  "address": "Street Address",
+  "addressPlaceholder": "e.g., 45 Lake View Road",
+  "city": "City / Town",
+  "cityPlaceholder": "e.g., Helsinki",
+  "state": "State / Territory",
+  "statePlaceholder": "e.g., Uusimaa",
+  "zip": "ZIP Code",
+  "zipPlaceholder": "e.g., 00100",
+  "mapLabel": "Select Sauna Location on Map"
+},
+"images": {
+  "warning": "Please upload high-quality JPG/PNG images under 5MB for best performance.",
+  "cover": "Cover Image",
+  "side": "Side Images",
+  "upload": "Upload",
+  "uploadCover": "Click to upload cover image",
+  "uploading": "Uploading..."
+},
+"amenities": {
+  "title": "Select Amenities",
+  "woodFiredHeater": "Wood Fired Heater",
+  "coldPlunge": "Cold Plunge",
+  "changingRoom": "Changing Room",
+  "outdoor": "Outdoor",
+  "wifi": "WiFi",
+  "kitchen": "Kitchen",
+  "parking": "Parking",
+  "saunaLight": "Sauna Light",  
+  "pool": "Pool",
+  "towels": "Towels"
+},
+
+"toast": {
+  "fillSaunaInfo": "Please fill in all required Sauna Information Fields.",
+  "fillTiming": "Please fill in all sauna timing fields.",
+  "fillLocation": "Please fill in all required Sauna Address Fields.",
+  "timezoneError": "Could not determine timezone from location.",
+  "uploadImages": "Please upload a Cover Image and 3 Side Images.",
+  "selectAmenities": "Please select at least one Amenity.",
+  "securityInfo": "Please select at least one security feature or provide a note.",
+  "authError": "User not authenticated",
+  "listingSuccess": "Sauna listing created successfully!",
+  "listingError": "Failed to submit sauna listing."
+},
+
+
+  "totalRevenue": {
+    "allSaunas": "💰 Total Revenue (All Saunas)"
+  },
+  "revenue": {
+    "gross": "Gross Revenue",
+    "platformFee": "Platform Fee (5%)",
+    "net": "Net Revenue"
+  
+},
+
+  
+  "saunas": {
+    "title": "🧖 Saunas",
+    "noneFound": "No saunas found."
+  },
+  "table": {
+    "bookingId": "Booking ID",
+    "amountPaid": "Amount Paid (€)",
+    "status": "Status",
+    "date": "Date",
+    "noPayments": "No payments found."
+  },
+  "revenueT": {
+    "title": "Revenue",
+    "gross": "Gross Revenue",
+    "platformFee": "Platform Fee (5%)",
+    "net": "Net Revenue"
+  },
+
+  
+ 
+  "YourSaunas": "Your Saunas",
+  "BookingDetails": "Booking Details",
+    "customer": "Customer",
+  "contact": "Contact",
+
+  "status": "Status",
+  "updateBooking": "Request Update",
+  "BookingsTable": "Bookings Table",
+  "NoBookingsFound": "No bookings found.",
+  "Date": "Date",
+  "Time": "Time",
+  "Customer": "Customer",
+  "Spots": "Spots",
+  "Status": "Status",
+  "Actions": "Actions",
+  "ViewUpdate": "View / Update",
+
+  
+  "profile": {
+    "title": "👤 Your Profile",
+    "name": "Name",
+    "contact": "Contact",
+    "address": "Address",
+    "placeholder": {
+      "name": "e.g., John Doe",
+      "contact": "e.g., +358 1234567",
+      "address": "e.g., 45 Lake View Road"
+    },
+    "resetPassword": "🔒 Reset Password",
+    "saveChanges": "Save Changes",
+    "updateSuccess": "✅ Profile updated successfully!",
+    "updateFail": "❌ Failed to update profile",
+    "resetLinkSent": "📧 Reset link sent to your email",
+    "resetLinkFail": "❌ Failed to send reset link"
+  },
+    "dashboardU": {
+    "title": "{{name}}'s Dashboard",
+    "defaultTitle": "Dashboard"
+  },
+  
+  "journal": {
+    "title": "Sauna Journal",
+    "subtitle": "A beautifully curated collection of sauna stories, culture, wellness insights and personal journeys.",
+    "articles": [
+      {
+        "title": "The Health Benefits of Regular Sauna Use",
+        "content": "Saunas are more than just a relaxing experience — they offer a wide range of health benefits. Regular use can help reduce stress levels, improve circulation, flush toxins, and support muscle recovery. Saunas are also known to aid in sleep, reduce chronic pain, and even strengthen your immune system. As part of a wellness routine, they offer both mental and physical rejuvenation."
+      },
+      {
+        "title": "Scandinavian Sauna Traditions You Should Try",
+        "content": "The Nordic sauna experience goes far beyond sitting in a hot room. It involves cycles of heat, cold plunges in lakes or snow, and periods of rest. In Finland, it's common to take saunas as a family activity — even business meetings happen in saunas! Traditions include using birch branches for massage and respecting silence. Embrace these rituals to truly understand sauna culture."
+      },
+      {
+        "title": "User Story: My Weekend in a Lakeside Smoke Sauna",
+        "content": "Jane from Helsinki spent a weekend in a rustic smoke sauna by the lake. With no electricity and a wood-burning stove, the experience was deeply immersive. 'The silence, the scent of birch, and the warmth wrapped around me like a blanket,' she says. After each session, she dipped into the icy lake. It was a digital detox and soul reset she’ll never forget."
+      },
+      {
+        "title": "How Sauna Therapy Boosts Mental Wellness",
+        "content": "Heat therapy has been found to release endorphins, reduce cortisol levels, and promote a meditative state of mind. Saunas give you a break from overstimulation and screens. Regular sessions can alleviate symptoms of anxiety and depression. Combined with breathwork or quiet reflection, saunas become sanctuaries of calm in today’s chaotic world."
+      }
+    ]
+  },
+
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "SaunaStay is currently in the testing phase. This Privacy Policy explains how we handle your personal information.",
+    "collectTitle": "What We Collect",
+    "item1": "Name and email address",
+    "item2": "Booking and availability details",
+    "item3": "Payment data (via secure third-party services)",
+    "whyTitle": "Why We Collect It",
+    "whyContent": "We only collect data with your consent to test platform features such as login, bookings, and payments. Your data is never shared or sold.",
+    "contactTitle": "Contact",
+    "contactText": "Questions? Contact us at"
+  },
+  "ProfileOwner": {
+  "ownerTitle": "Owner Profile",
+  "defaultName": "Your Name",
+  "resetPassword": "Reset Password",
+  "name": "Name",
+  "contact": "Contact",
+  "address": "Address",
+  "city": "City",
+  "country": "Country",
+  "company": "Company",
+  "website": "Website",
+  "saveChanges": "Save Changes",
+  "updated": "✅ Profile updated successfully!",
+  "updateFailed": "❌ Failed to update profile",
+  "resetSent": "📧 Reset link sent to your email",
+  "resetFailed": "❌ Failed to send reset link"
+},
+
+"UserFav": {
+  "loadingFavorites": "Loading your favorites...",
+  "loginToView": "Please log in to see your favorite saunas.",
+  "login": "log in",
+  "myFavorites": "My Favorite Saunas",
+  "noFavorites": "You haven’t saved any saunas yet."
+},
+"RequestModal": {
+  "title": "Update Booking / Request Admin",
+  "sauna": "Sauna",
+  "date": "Date",
+  "time": "Time",
+  "customer": "Customer",
+  "status": "Status",
+  "reasonLabel": "Request Reason",
+  "placeholder": "Example: Customer didn't show up...",
+  "cancel": "Cancel",
+  "submit": "Submit Request",
+  "enterReason": "Please provide a reason.",
+  "success": "Admin request submitted successfully.",
+  "error": "Failed to submit request. Please try again."
+},
+"thankYou": {
+  "title": "Thank You for Your Booking!",
+  "bookingId": "Booking ID",
+  "processing": "Processing payment...",
+  "saved": "Payment saved and booking confirmed ✅",
+  "alreadySaved": "Payment already recorded.",
+  "error": "There was a problem saving your payment.",
+  "thankYouBooking": "Thank you for your booking!",
+  "sessionConfirmed": "Your session at {{sauna}} is confirmed.",
+  "locationT": "Location",
+  "date": "Date",
+  "time": "Time",
+  "spotsH": "Spots",
+  "totalPaid": "Total Paid",
+  "confirmationEmail": "Confirmation Email",
+  "arriveNote": "Please arrive 10 minutes early and bring your own towel."
+},
+"bookingManager": {
+  "title": "Manage My Bookings",
+  "loading": "Loading bookings...",
+  "noBookings": "No bookings yet.",
+  "unknownSauna": "Unknown Sauna",
+  "customer": "Customer",
+  "email": "Email",
+  "date": "Date",
+  "time": "Time",
+  "status": "Status"
+},
+"dashboardOwner": {
+  "loading": "Loading dashboard...",
+  "greeting": "Good morning, {{name}}",
+  "intro": "Here’s your sauna dashboard for the week.",
+  "totalSaunas": "Total Saunas",
+  "upcomingBookings": "Upcoming Bookings",
+  "totalRevenue": "Total Revenue",
+  "profileSettings": "Profile Settings",
+  "bookingsChart": "Bookings This Week",
+  "revenueChart": "Revenue Trend"
+},
+"guestFavorite": {
+  "title": "Guests' Favorite Saunas",
+  "description": "A beautifully curated list of saunas loved by our guests — discover what's most adored and shared.",
+  "loading": "Loading...",
+  "noFavorites": "No favorites have been saved by guests yet."
+},
+  "manageAvailabilityOwner": {
+    "title": " Manage Sauna Availability",
+    "yourSaunas": "Your Saunas",
+    "sessionDuration": "Session Duration",
+    "updateSlot": " Update Slot",
+    "spotsAvailable": "Spots Available",
+    "saveChanges": "Save Changes",
+    "updated": "Updated: {{title}} | {{date}} | {{time}} | Spots: {{spots}}"
+  },
+    "manageSaunasOwner": {
+    "title": "Manage My Saunas",
+    "yourSaunas": "Your Saunas",
+    "addNew": "➕ Add New Sauna",
+    "images": "Images",
+    "selectType": "Select Type",
+    "selectCategory": "Select Category",
+    "city": "City",
+    "country": "Country",
+    "price": "Price (per session per person)",
+    "duration": "Session Duration",
+    "openingTime": "Opening Time",
+    "closingTime": "Closing Time",
+    "features": "Features",
+    "description": "Sauna description",
+    "update": "✅ Update Sauna",
+    "delete": "🗑 Delete Sauna",
+    "noSaunaSelected": "Select a sauna from the list to view or edit.",
+    "updateSuccess": "✅ Sauna updated successfully!",
+    "updateFail": "❌ Failed to update sauna.",
+    "deleted": "🗑 Sauna deleted",
+    "deleteConfirm": "Are you sure you want to delete this sauna?",
+    "imageUploaded": "✅ Image uploaded successfully!",
+    "imageFailed": "❌ Failed to upload image"
+  
+},
+
+
+"feedbackBot": {
+  "buttonLabel": "Give your feedback",
+  "title": "We value your feedback",
+  "rolePrompt": "Are you a customer or a sauna owner?",
+    "requireGuestInfo": "Please provide your name and email to continue.",
+  "requireRole": "Please select whether you're a customer or owner.",
+  "requireExperience": "Please rate your experience.",
+  "requireUseAgain": "Please answer if you'll use SaunaStay again.",
+  "requirePayForFeatures": "Please answer if you would pay for these features.",
+  "success": "Thank you for your feedback!",
+  "roles": {
+    "customer": "Customer",
+    "owner": "Owner"
+  },
+  "name": "Your Name (required)",
+  "email": "Your Email (required)",
+  "experience": "How was your experience with SaunaStay?",
+  "useAgain": "Would you use SaunaStay again?",
+  "features": "Would you pay for premium features like:",
+  "featuresList": {
+    "360": "360° sauna view",
+    "smart": "Smart controls",
+    "voice": "Voice command",
+    "api": "API sync with existing booking system"
+  },
+  "suggestions": "Any suggestions to improve SaunaStay?",
+  "suggestionsPlaceholder": "Write your suggestions here...",
+  "submit": "Submit Feedback",
+  "submitting": "Submitting...",
+
+  
+  "options": {
+    "yes": "Yes",
+    "no": "No",
+    "maybe": "Maybe"
+  }
+},
+"feed":{
+"feedbackPageTitle":"Feedback Details"},
+  "noFeedback": "No feedback submitted yet.",
+  "experience": "Experience",
+  "useAgain": "Use again",
+ 
+  "suggestion": "Suggestion",
+  "emojiMap": {
+    "😡": "Angry",
+    "😐": "Neutral",
+    "🙂": "Happy",
+    "😍": "Excellent"
+  },
+  "useAgainMap": {
+    "Yes": "Yes",
+    "No": "No",
+    "Kyllä": "Yes",
+    "Ei": "No"
+  },
+  "payForFeaturesMap": {
+    "Yes": "Yes",
+    "No": "No",
+    "Maybe": "Maybe",
+    "Kyllä": "Yes",
+    "Ei": "No",
+    "Ehkä": "Maybe"
+  },
+   "roleMap": {
+    "customer": "Customer",
+    "owner": "Sauna Owner"
+  },
+
+
+
+ 
+  "help": {
+    "title": "Help & Support",
+    "back": "← Back to SaunaStay",
+    "details": {
+      "SaunaStay Home": "Explore the SaunaStay home page with filters and options to browse saunas.",
+      "Typefilters": "Use sauna type filters to narrow down your search by Traditional, Electric, Smoke, etc.",
+      "Categoryfilters": "Select categories like Outdoor, Barrel, or Mobile to find matching saunas.",
+      "saunaList": "Scroll through available sauna listings based on your selected filters.",
+      "saunaViews": "Detailed view of the selected sauna with pricing, time slots, and description.",
+      "saunaJournal": "Read blog posts, updates, or sauna insights shared by the community.",
+      "feedbackBot1": "Choose if you're a User or Owner and add your name and email before submitting feedback.",
+      "feedbackBot2": "A bot interface to ask questions or give feedback at any time.",
+      
+      "signupLogin": "Sign up or log in with email/password or Google to start booking.",
+      "googlelogin": "Sign in securely using your Google account.",
+      "login": "Enter your credentials to log into your SaunaStay account.",
+      "userNavbar": "User navigation bar with links to profile, bookings, and favorites.",
+      "selectSauna": "Explore detailed view of a sauna before booking.",
+      "selectSaunaFi": "Choose the date, time, and slot for your sauna session.",
+      "confirmBooking": "After choosing a slot, confirm your booking using this modal.",
+      "paymentPage": "Review the selected session and proceed to test payment.",
+      "testStripe": "Simulate payment using Stripe’s test environment.",
+      "thankYou": "Thank you screen confirming the successful booking.",
+      "userDashboard": "Manage your bookings. You can update or cancel them here.",
+      "favorites": "View and manage saunas you've marked as favorites.",
+      "Profile": "Update your contact info, password, and view your details.",
+      
+      "selectType": "Pick the type of sauna you're listing: private, public, or mobile.",
+      "selectTypeSelected": "Preview of a selected sauna type before continuing.",
+      "selectCategory": "Choose a sauna category that best describes your sauna.",
+      "authLogin": "Login step before continuing sauna listing.",
+      "authSignup": "Signup step if you're not already logged in.",
+      "fillInfo": "Provide the sauna’s name, description, host name, and total spots.",
+      "hours": "Set opening/closing hours and session duration per user.",
+      "location": "Mark sauna’s physical location using address or map input.",
+      "images": "Upload high-quality images of your sauna.",
+      "amenities": "Select what amenities your sauna includes: towels, showers, etc.",
+      "security": "Specify security measures and confirm local compliance.",
+      "listingSuccess": "Your sauna listing is created and active!",
+
+      "ownerDashboard": "Overview of bookings, revenue, and activity for sauna owners.",
+      "manageSaunas": "View and update your listed saunas here.",
+      "manageAvailability": "Set available booking slots per day.",
+      "manageAvailabilityMonth": "Month view to bulk manage sauna availability.",
+      "manageBookings": "See who booked your sauna and when. Take action if needed.",
+      "bookingModalOwner": "Owner’s modal to update booking status or send messages.",
+      "revenue": "Overview of total revenue and daily earnings.",
+      "profile": "Edit your owner profile information and update preferences."
+    }
+  }
+
+
+
+
+}
+
+
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+/* src/components/SaunaListings.css */
+
+.sauna-listings {
+  text-align: center;
+  background-color: #e1d5c9; /* Updated background color */
+  padding: 50px 20px;
+}
+
+.sauna-listings-header {
+  margin-bottom: 40px;
+}
+
+.sauna-listings-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #20110ef8; /* Button green */
+}
+
+.sauna-listings-header p {
+  font-size: 1.25rem;
+  color: #5c5c5c;
+}
+
+.listings-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.listing {
+  background-color: transparent; /* Set background to transparent */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  margin: 0; /* Ensure no margin is added underneath */
+}
+
+.sauna-image {
+  width: 100%;
+  height: 200px;  /* Fixed height for images */
+  object-fit: cover; /* Ensure images fill the space without stretching */
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.reserve-btn {
+  background-color: #b67342 !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-btn:hover {
+  background-color: #a16236 !important;
+}
+
