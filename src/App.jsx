@@ -16,7 +16,6 @@ import ManageBookingsOwner from './Pages/ManageBookingsOwner';
 import ProtectedRoute from './components/ProtectedRoute'; // ✅ NEW
 import { AuthProvider } from './context/AuthContext';
 import Login from './components/Login'; // ✅ Must be imported
-import GuestFavorites from './pages/GuestFavorites';
 import SaunaJournal from './Pages/SaunaJournal';
 import 'react-toastify/dist/ReactToastify.css';
 import UserDashboard from './Pages/UserDashboard';  
@@ -100,6 +99,7 @@ useEffect(() => {
           {/* ✅ Search Results */}
           <Route path="/search-results" element={<><Navbar /><SearchResultsPage /></>} />
 
+
           {/* ✅ Sauna Detail Page */}
           <Route path="/sauna/:id" element={<><Navbar /><SaunaDetailPage /></>} />
 
@@ -117,7 +117,7 @@ useEffect(() => {
 
 <Route path="/journal" element={<><Navbar /><SaunaJournal /></>} />
 
-         <Route path="/favorites" element={  <>   <Navbar />   <GuestFavorites /> </> } />
+       
         <Route path="/privacy" element={<PrivacyPolicy />} />
 
           {/* ✅ Protected Admin Routes */}
