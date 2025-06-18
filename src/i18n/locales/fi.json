@@ -275,19 +275,20 @@
   "uploadCover": "Klikkaa ladataksesi kansikuvan",
   "uploading": "Ladataan..."
 },
- "amenities": {
-  "title": "Valitse mukavuudet",
-"woodFiredHeater": "Puulämmitteinen kiuas",
-  "coldPlunge": "Kylmäallas",
-  "changingRoom": "Pukuhuone",
-  "outdoor": "Ulkosauna",
-  "Wifi": "WiFi",
-  "kitchen": "Keittiö",
-  "parking": "Pysäköinti",
-  "saunaLight": "Saunavalaistus",
-  "pool": "Uima-allas",
-  "towels": "Pyyhkeet"
+ 
+"amenities": {
+  "Puulämmitteinen kiuas": "woodFiredHeater",
+  "Kylmäallas": "coldPlunge",
+  "Pukuhuone": "changingRoom",
+  "Ulkosauna": "outdoor",
+  "WiFi": "Wifi",
+  "Keittiö": "kitchen",
+  "Pysäköinti": "parking",
+  "Saunavalaistus": "saunaLight",
+  "Uima-allas": "pool",
+  "Pyyhkeet": "towels"
 },
+
 "toast": {
   "fillSaunaInfo": "Täytä kaikki vaaditut saunatiedot.",
   "fillTiming": "Täytä kaikki saunan aikataulutiedot.",

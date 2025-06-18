@@ -114,21 +114,19 @@ const BookingPaymentPage = () => {
           <h2 className="text-2xl font-serif mb-4 text-[#2e4a20] border-b pb-2">
             {t('bookingSummary')}
           </h2>
-          <p><strong>{t('sauna')}:</strong> {sauna.title}</p>
-          <p><strong>{t('address')}:</strong> {sauna.location}</p>
-          <p><strong>{t('bookingId')}:</strong> {bookingId}</p>
-          <p><strong>{t('bookingDate')}:</strong> {booking.date}</p>
-          <p><strong>{t('bookingSlot')}:</strong> {booking.time} ({sauna.timezone})</p>
-          <p><strong>{t('spotsBooked')}:</strong> {booking.spotsBooked}</p>
-          <p><strong>{t('sessionPrice')}:</strong> €{sauna.price}</p>
-          <p><strong>{t('totalCost')}:</strong> €{totalPrice}</p>
+        <p className="mb-2"><strong>{t('sauna')}:</strong> {sauna.title}</p>
+<p className="mb-2"><strong>{t('address')}:</strong> {sauna.city}</p>
+<p className="mb-2"><strong>{t('bookingId')}:</strong> {bookingId}</p>
+<p className="mb-2"><strong>{t('bookingDate')}:</strong> {booking.date}</p>
+<p className="mb-2"><strong>{t('bookingSlot')}:</strong> {booking.time} ({sauna.timezone})</p>
+<p className="mb-2"><strong>{t('spotsBooked')}:</strong> {booking.spotsBooked}</p>
+<p className="mb-2"><strong>{t('sessionPrice')}:</strong> €{sauna.price}</p>
+<p className="mb-2"><strong>{t('totalCost')}:</strong> €{totalPrice}</p>
+
           <hr className="my-4" />
           <h3 className="font-semibold">{t('description')}</h3>
           <p className="text-sm">{sauna.description}</p>
-          <h3 className="font-semibold mt-2">{t('amenities')}</h3>
-          <ul className="list-disc list-inside text-sm">
-            {sauna.amenities?.map((a,i) => <li key={i}>{a}</li>)}
-          </ul>
+         
         </section>
 
         {/* Your Details & Payment */}

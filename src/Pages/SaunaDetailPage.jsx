@@ -17,7 +17,18 @@ const SaunaDetailPage = () => {
   const decodedId = decodeURIComponent(id);
   const [sauna, setSauna] = useState(null);
   const [reviews, setReviews] = useState([]);
-
+const amenityReverseMap = {
+  "Puulämmitteinen kiuas": "woodFiredHeater",
+  "Kylmäallas": "coldPlunge",
+  "Pukuhuone": "changingRoom",
+  "Ulkosauna": "outdoor",
+  "WiFi": "Wifi",
+  "Keittiö": "kitchen",
+  "Pysäköinti": "parking",
+  "Saunavalaistus": "saunaLight",
+  "Uima-allas": "pool",
+  "Pyyhkeet": "towels"
+};
   useEffect(() => {
     const fetchSauna = async () => {
       const saunaRef = doc(db, 'saunas', decodedId);
@@ -91,26 +102,24 @@ const SaunaDetailPage = () => {
 {sauna.amenities?.length > 0 && (
   <div className="mt-2 flex flex-wrap gap-2">
     {sauna.amenities.map((item, idx) => {
-      const toCamelCase = (str) =>
-        str
-          .toLowerCase()
-          .replace(/[^a-z0-9 ]/g, '')
-          .split(' ')
-          .map((w, i) => (i === 0 ? w : w.charAt(0).toUpperCase() + w.slice(1)))
-          .join('');
+      // Step 1: Check if item is Finnish and map it to English key
+      const englishKey = amenityReverseMap[item] || item;
 
-      const key = `amenities.${toCamelCase(item)}`;
+      // Step 2: Build the i18n key
+      const i18nKey = `amenities.${englishKey}`;
+
       return (
         <span
           key={idx}
           className="px-2 py-1 text-xs bg-yellow-100 border border-yellow-600 text-yellow-800 rounded-full"
         >
-          {t(key, item)}
+          {t(i18nKey, item)}
         </span>
       );
     })}
   </div>
 )}
+
 
         </div>
       </div>

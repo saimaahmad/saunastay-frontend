@@ -27,6 +27,18 @@ const SaunaHome = ({ setShowLoginModal }) => {
   const [favorites, setFavorites] = useState([]);
   const [user] = useAuthState(auth);
   const navigate = useNavigate();
+  const amenityReverseMap = {
+  "Puulämmitteinen kiuas": "woodFiredHeater",
+  "Kylmäallas": "coldPlunge",
+  "Pukuhuone": "changingRoom",
+  "Ulkosauna": "outdoor",
+  "WiFi": "Wifi",
+  "Keittiö": "kitchen",
+  "Pysäköinti": "parking",
+  "Saunavalaistus": "saunaLight",
+  "Uima-allas": "pool",
+  "Pyyhkeet": "towels"
+};
 
   useEffect(() => {
     const fetchSaunas = async () => {
@@ -234,30 +246,27 @@ const SaunaHome = ({ setShowLoginModal }) => {
                 </div>
 
 {/* Amenities */}
-{sauna.amenities && sauna.amenities.length > 0 && (
+{sauna.amenities?.length > 0 && (
   <div className="mt-2 flex flex-wrap gap-2">
-    {sauna.amenities.map((item, index) => {
-      const toCamelCase = (str) =>
-        str
-          .toLowerCase()
-          .replace(/[^a-zA-Z0-9 ]/g, '')
-          .split(' ')
-          .map((word, i) =>
-            i === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1)
-          )
-          .join('');
+    {sauna.amenities.map((item, idx) => {
+      // Step 1: Check if item is Finnish and map it to English key
+      const englishKey = amenityReverseMap[item] || item;
+
+      // Step 2: Build the i18n key
+      const i18nKey = `amenities.${englishKey}`;
 
       return (
         <span
-          key={index}
+          key={idx}
           className="px-2 py-1 text-xs bg-yellow-100 border border-yellow-600 text-yellow-800 rounded-full"
         >
-          {t(`amenities.${toCamelCase(item)}`, item)}
+          {t(i18nKey, item)}
         </span>
       );
     })}
   </div>
 )}
+
 
 
 
@@ -267,7 +276,7 @@ const SaunaHome = ({ setShowLoginModal }) => {
             <p className="col-span-full text-center text-gray-500">
               {t('noSaunasMatchFilters', 'No saunas match your filters or category.')}
             </p>
-          )}
+            )}
         </div>
       </div>
     </div>
