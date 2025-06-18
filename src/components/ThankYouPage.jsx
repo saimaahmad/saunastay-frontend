@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { db } from '../firebase';
 import { doc, getDoc, updateDoc, setDoc, collection, getDocs } from 'firebase/firestore';
-import GuestFavorites from '../pages/GuestFavorites';
 import { useTranslation } from 'react-i18next';
 
 const ThankYouPage = () => {
@@ -140,9 +139,6 @@ const ThankYouPage = () => {
             </p>
           </section>
 
-          <section className="mt-12">
-            <GuestFavorites />
-          </section>
         </>
       )}
     </div>
