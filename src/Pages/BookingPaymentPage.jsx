@@ -86,7 +86,8 @@ const BookingPaymentPage = () => {
     saunaName: sauna.title,
      language: selectedLang,
     amount: totalAmount, // ✅ Use this
-    description: `Booking for ${sauna.title} on ${booking.date} at ${booking.time}`,
+    description: `Booking for ${sauna.title} on ${booking.date} at ${booking.time}      ****User  Virtual Card Info. You can use 4242 4242 4242 4242  as virtaul card number`,
+  
     successUrl:   `${base}/thank-you?bookingId=${bookingId}`,
     cancelUrl:    `${base}/payment-cancelled?bookingId=${bookingId}`,
     
@@ -173,6 +174,12 @@ const BookingPaymentPage = () => {
             </div>
            
             <p className="text-xs text-gray-500">{t('terms')}</p>
+            <div className="bg-yellow-100 text-yellow-800 text-sm rounded px-3 py-2 border border-yellow-300 mb-4">
+  <strong>Stripe Test Card:</strong><br />
+  Use <code>4242 4242 4242 4242</code> as Test ard number.<br />
+  Any future expiry (e.g., 12/34), CVC <code>123</code>, ZIP <code>12345</code>.
+</div>
+
             <button
               disabled={alreadyPaid}
               onClick={handlePayment}

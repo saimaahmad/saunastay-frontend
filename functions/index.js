@@ -37,6 +37,7 @@ automatic_tax: { enabled: false },
           product_data: {
             name: data.saunaName || 'Sauna Booking',
             description: data.description || '',
+            
           },
           unit_amount: amountInCents,
         },
