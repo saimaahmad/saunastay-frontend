@@ -123,7 +123,7 @@ cd functions
 npm install
 ```
 
-Configure Firebase CLI for the intended non-production project and securely provide credentials. Do not put production secrets in source files or commit them to version control. The Functions package is configured for Node.js 22 and the `europe-west1` region. Use Secret Manager for Stripe secrets and grant Functions only the permissions they need.
+Configure Firebase CLI for the intended project and securely provide credentials. Do not put production secrets in source files, `.env` files, or version control. The Functions package is configured for Node.js 22 and the `europe-west1` region. The Stripe functions read `STRIPE_SECRET_KEY` and `STRIPE_WEBHOOK_SECRET` from Firebase Functions Secret Manager. Set each secret with `firebase functions:secrets:set STRIPE_SECRET_KEY` and `firebase functions:secrets:set STRIPE_WEBHOOK_SECRET`; enter each value only at the CLI's interactive prompt, never as a command argument. Deploy Functions only after both secrets are set and verify that the selected Firebase project is correct. Grant Functions only the permissions they need.
 
 ## Available Scripts
 
